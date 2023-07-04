@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+}
+.app-container {
+  padding: 15px;
+}
+.title {
+  font-size: 30px;
+  font-family: "Bree Serif";
+  font-weight: bold;
+  margin: 15px;
+  color: blue;
+  text-decoration: underline red;
+  text-align: center;
+}
+.nav-container {
+  margin-top: 15px;
+}
+.create-task-heading {
+  font-family: "Roboto";
+  font-size: 32px;
+  font-weight: 700;
+}
+.form-container {
+  padding: 25px;
+  padding-top: 10px;
+}
+.input-label-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+input {
+  width: 50%;
+  margin-top: 5px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  border: 1px solid gray;
+  font-family: "Roboto";
+}
+textarea {
+  width: 50%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: gray 300;
+  font-family: "Roboto";
+}
+.save-btn {
+  width: 80px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: blue;
+  cursor: pointer;
+  font-weight: 400;
+}
+.error-msg {
+  color: rgb(252, 10, 10);
+  margin-top: 5px;
+  font-size: 13px;
+  font-family: "Roboto";
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
